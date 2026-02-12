@@ -1,0 +1,503 @@
+/* Elegant Animations for NOMI NOMI Website */
+/* ใช้ AOS Library สำหรับ scroll animations + Custom looping animations */
+
+/* ====================================
+   Page Load & Section 1 Animations
+   ==================================== */
+
+/* Smooth page load - เร็วมาก */
+body {
+    animation: pageLoad 0.3s ease-out forwards;
+}
+
+@keyframes pageLoad {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Header แสดงทันที - ไม่มี animation */
+.header {
+    opacity: 1;
+}
+
+/* Section 1 fade in เบาๆ เริ่มจาก 0.5 แทน 0 */
+#section1 {
+    animation: sectionFade 0.5s ease-out 0.2s both;
+}
+
+@keyframes sectionFade {
+    from {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Main Title - fade เบาๆ */
+#section1 h1.small-title {
+    animation: textReveal 0.6s ease-out 0.4s both;
+}
+
+@keyframes textReveal {
+    from {
+        opacity: 0;
+        filter: blur(2px);
+    }
+    to {
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+
+/* Subtitle */
+#section1 p.small-title {
+    animation: textReveal 0.6s ease-out 0.7s both;
+}
+
+/* Main Product Image - fade in เท่านั้น */
+#section1 .i-9 {
+    animation: imageReveal 0.8s ease-out 0.9s both;
+}
+
+@keyframes imageReveal {
+    from {
+        opacity: 0;
+        filter: blur(5px);
+    }
+    to {
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+
+/* Container Images - fade in ทีละตัว และ float loop */
+#section1 .container img {
+    animation: quickImageFade 0.5s ease-out both,
+               itemFloat 3s ease-in-out infinite;
+}
+
+/* i-5, i-6 ไม่มี loop */
+#section1 .container img.i-5 { 
+    animation: quickImageFade 0.5s ease-out both;
+    animation-delay: 1.1s;
+}
+#section1 .container img.i-6 { 
+    animation: quickImageFade 0.5s ease-out both;
+    animation-delay: 1.15s;
+}
+#section1 .container img.i-7 { animation-delay: 1.2s, 2.7s; }
+#section1 .container img.i-8 { animation-delay: 1.25s, 2.8s; }
+#section1 .container img.i-10 { animation-delay: 1.3s, 2.9s; }
+#section1 .container img.i-11 { animation-delay: 1.35s, 3s; }
+#section1 .container img.i-12 { animation-delay: 1.4s, 3.1s; }
+#section1 .container img.i-13 { animation-delay: 1.18s, 2.65s; }
+#section1 .container img.i-14 { animation-delay: 1.23s, 2.75s; }
+#section1 .container img.i-15 { animation-delay: 1.28s, 2.85s; }
+#section1 .container img.i-16 { animation-delay: 1.33s, 2.95s; }
+#section1 .container img.i-17 { animation-delay: 1.38s, 3.05s; }
+#section1 .container img.i-18 { animation-delay: 1.43s, 3.15s; }
+#section1 .container img.i-19 { animation-delay: 1.48s, 3.25s; }
+
+@keyframes itemFloat {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes quickImageFade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Decorative Icons - fade เบาๆ เท่านั้น */
+#section1 i.i-1 {
+    animation: quickImageFade 0.5s ease-out 1s both;
+}
+
+#section1 i.i-2 {
+    animation: quickImageFade 0.5s ease-out 1.1s both;
+}
+
+#section1 i.i-3 {
+    animation: quickImageFade 0.5s ease-out 1.2s both;
+}
+
+#section1 i.i-4 {
+    animation: quickImageFade 0.5s ease-out 1.3s both;
+}
+
+/* i-19 ลอยขึ้นลง แบบพิเศษ */
+#section1 .container img.i-19 {
+    animation: quickImageFade 0.5s ease-out 1.48s both,
+               floatingMargin 3s ease-in-out 3.25s infinite;
+}
+
+@keyframes floatingMargin {
+    0%, 100% {
+        margin-top: 0px;
+        filter: brightness(1);
+    }
+    50% {
+        margin-top: -15px;
+        filter: brightness(1.05);
+    }
+}
+
+/* i-3 (ท้องฟ้า) - อยู่ใน Decorative Icons แล้ว */
+
+@keyframes breathingGlow {
+    0%, 100% {
+        filter: brightness(1) contrast(1);
+        opacity: 1;
+    }
+    50% {
+        filter: brightness(1.1) contrast(1.05);
+        opacity: 0.92;
+    }
+}
+
+/* Subtle hover effects */
+#section1 .container img {
+    transition: filter 0.3s ease;
+}
+
+#section1 .container img:hover {
+    filter: brightness(1.1);
+}
+
+/* ====================================
+   Section 2 - Looping Animations
+   ==================================== */
+
+/* i-20, i-23, i-27 ลอยซ้าย-ขวา สลับกัน (วนซ้ำตลอด) */
+#section2 i.i-20 {
+    animation: floatLeftRight 6s ease-in-out infinite;
+}
+
+#section2 i.i-23 {
+    animation: floatRightLeft 7s ease-in-out infinite;
+}
+
+#section2 i.i-27 {
+    animation: floatLeftRight 8s ease-in-out 1s infinite;
+}
+
+@keyframes floatLeftRight {
+    0%, 100% {
+        margin-left: 0px;
+    }
+    50% {
+        margin-left: 30px;
+    }
+}
+
+@keyframes floatRightLeft {
+    0%, 100% {
+        margin-right: 0px;
+    }
+    50% {
+        margin-right: 30px;
+    }
+}
+
+/* Stars twinkling */
+#section2 .i-star1,
+#section2 .i-star2,
+#section2 .i-star3 {
+    animation: starTwinkle 2s ease-in-out infinite;
+}
+
+#section2 .i-star1 { animation-delay: 0s; }
+#section2 .i-star2 { animation-delay: 0.3s; }
+#section2 .i-star3 { animation-delay: 0.6s; }
+
+@keyframes starTwinkle {
+    0%, 100% {
+        filter: brightness(1);
+        opacity: 1;
+    }
+    50% {
+        filter: brightness(1.5);
+        opacity: 0.8;
+    }
+}
+
+/* i-box และ i-sun เรืองแสง */
+#section2 .i-box,
+#section2 .i-sun {
+    animation: pulseGlow 3s ease-in-out infinite;
+}
+
+#section2 .i-box { animation-delay: 0s; }
+#section2 .i-sun { animation-delay: 1s; }
+
+@keyframes pulseGlow {
+    0%, 100% {
+        filter: brightness(1);
+    }
+    50% {
+        filter: brightness(1.2);
+    }
+}
+
+/* ====================================
+   Link Hover Effects
+   ==================================== */
+
+/* Link และ Button hover effects */
+a {
+    transition: transform 0.3s ease, filter 0.3s ease;
+    display: inline-block;
+}
+
+a:hover {
+    transform: scale(1.1);
+    filter: brightness(1.1);
+}
+
+/* Menu links */
+.header .menu ul li a:hover,
+.menu-mb .menu ul li a:hover {
+    transform: scale(1.15);
+}
+
+.header .menu ul li a img,
+.menu-mb .menu ul li a img {
+    transition: transform 0.3s ease;
+}
+
+/* Social media links */
+.header .social ul li a:hover,
+.menu-mb .social ul li a:hover {
+    transform: scale(1.2);
+}
+
+/* Section 12 - All links hover effect */
+#section12 a {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+#section12 .col-4 a:hover,
+#section12 .bg a:hover {
+    transform: scale(1.15);
+    filter: brightness(1.1);
+}
+
+#section12 a img {
+    transition: transform 0.3s ease;
+}
+
+/* Smooth transitions for all interactive elements */
+button,
+.menu-btn {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+button:hover,
+.menu-btn:hover {
+    transform: scale(1.1);
+    filter: brightness(1.1);
+    cursor: pointer;
+}
+
+/* ====================================
+   Content-img Looping Animations
+   ==================================== */
+
+/* รูปเล็กๆ ใน content-img ลอยขึ้นลง loop */
+.animate-float-item {
+    animation: floatLoop 3s ease-in-out infinite;
+}
+
+/* Stagger animation delays for multiple items */
+.animate-float-item:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.animate-float-item:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.animate-float-item:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+.animate-float-item:nth-child(4) {
+    animation-delay: 0.6s;
+}
+
+.animate-float-item:nth-child(5) {
+    animation-delay: 0.8s;
+}
+
+.animate-float-item:nth-child(6) {
+    animation-delay: 1s;
+}
+
+.animate-float-item:nth-child(7) {
+    animation-delay: 1.2s;
+}
+
+.animate-float-item:nth-child(8) {
+    animation-delay: 1.4s;
+}
+
+@keyframes floatLoop {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+/* ====================================
+   Section 10 - Fade In/Out Animation
+   ==================================== */
+
+/* รูปเล็กใน Section 10 content-img แสดง-หาย-แสดง loop */
+#section10 .content-img .animate-float-item {
+    animation: floatLoop 3s ease-in-out infinite,
+               fadeInOut 4s ease-in-out infinite;
+}
+
+/* Stagger fade animation delays */
+#section10 .content-img .animate-float-item:nth-child(1) {
+    animation-delay: 0s, 0s;
+}
+
+#section10 .content-img .animate-float-item:nth-child(2) {
+    animation-delay: 0.2s, 0.5s;
+}
+
+#section10 .content-img .animate-float-item:nth-child(3) {
+    animation-delay: 0.4s, 1s;
+}
+
+#section10 .content-img .animate-float-item:nth-child(4) {
+    animation-delay: 0.6s, 1.5s;
+}
+
+#section10 .content-img .animate-float-item:nth-child(5) {
+    animation-delay: 0.8s, 2s;
+}
+
+#section10 .content-img .animate-float-item:nth-child(6) {
+    animation-delay: 1s, 2.5s;
+}
+
+#section10 .content-img .animate-float-item:nth-child(7) {
+    animation-delay: 1.2s, 3s;
+}
+
+#section10 .content-img .animate-float-item:nth-child(8) {
+    animation-delay: 1.4s, 3.5s;
+}
+
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+/* ====================================
+   Section 4 - No Looping Animations
+   ==================================== */
+/* Section 4 ใช้แค่ AOS animation ตอน scroll เข้ามาเท่านั้น
+   เพราะ element มี transform centering อยู่แล้ว */
+
+/* ====================================
+   Section 11 - Fruit Blink Animation
+   ==================================== */
+
+/* ท้องฟ้า (i-1112) - เคลื่อนไหวแบบช้าๆ (ไม่กระทบตำแหน่งเดิม) */
+#section11 .i-1112 {
+    animation: skyFloat 8s ease-in-out infinite;
+}
+
+@keyframes skyFloat {
+    0%, 100% {
+        transform: translateX(-50%) translateY(0px);
+        opacity: 1;
+        filter: brightness(1);
+    }
+    25% {
+        transform: translateX(-50%) translateY(-5px);
+        opacity: 0.95;
+        filter: brightness(1.02);
+    }
+    50% {
+        transform: translateX(-50%) translateY(0px);
+        opacity: 1;
+        filter: brightness(1);
+    }
+    75% {
+        transform: translateX(-50%) translateY(-3px);
+        opacity: 0.97;
+        filter: brightness(1.01);
+    }
+}
+
+/* กระพริบสำหรับผลไม้ (i-1115.png) */
+#section11 .animate-fruit-blink {
+    animation: fruitBlink 2s ease-in-out infinite;
+}
+
+/* Stagger animation delays เพื่อให้กระพริบไม่พร้อมกัน */
+#section11 .i-1115 {
+    animation-delay: 0s;
+}
+
+#section11 .i-1117 {
+    animation-delay: 0.25s;
+}
+
+#section11 .i-1118 {
+    animation-delay: 0.5s;
+}
+
+#section11 .i-1119 {
+    animation-delay: 0.75s;
+}
+
+#section11 .i-1120 {
+    animation-delay: 1s;
+}
+
+#section11 .i-1121 {
+    animation-delay: 1.25s;
+}
+
+#section11 .i-1122 {
+    animation-delay: 1.5s;
+}
+
+#section11 .i-1123 {
+    animation-delay: 1.75s;
+}
+
+@keyframes fruitBlink {
+    0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.3;
+        transform: scale(0.95);
+    }
+}

@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="8tmEO3GI9-0m2doCpi-uZrOdNOunIXhqAZ6PY0bJFyw" />
+    <!-- Primary Meta Tags -->
+    <title>NOMI NOMI - น้ำผลไม้ผสมผักสำหรับเด็กที่มี DHA | Mixed Fruit & Veggie Juice</title>
+    <meta name="title" content="NOMI NOMI - น้ำผลไม้ผสมผักสำหรับเด็กที่มี DHA | Mixed Fruit & Veggie Juice">
+    <meta name="description" content="น้ำผลไม้สำหรับเด็ก NOMI NOMI หวานน้อย ไม่มีน้ำตาลเพิ่ม มี DHA Omega 3, 6, 9 จากญี่ปุ่น วิตามินสูงจากผักผลไม้ ปลอดภัยสำหรับลูกน้อย เหมาะสำหรับเด็กอายุ 1 ปีขึ้นไป">
+    <meta name="keywords" content="NOMI NOMI, น้ำผลไม้เด็ก, น้ำผลไม้ผสมผัก, DHA สำหรับเด็ก, น้ำผลไม้ไม่หวาน, น้ำผลไม้ไม่มีน้ำตาล, น้ำผลไม้สำหรับเด็ก 1 ปี, Omega 3 6 9 สำหรับเด็ก, น้ำผลไม้ออร์แกนิก, น้ำผลไม้เด็กปลอดภัย">
+    <meta name="author" content="NOMI NOMI">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Thai">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nominomikids.com/">
+    <meta property="og:title" content="NOMI NOMI - น้ำผลไม้ผสมผักสำหรับเด็กที่มี DHA">
+    <meta property="og:description" content="น้ำผลไม้สำหรับเด็ก หวานน้อย ไม่มีน้ำตาลเพิ่ม มี DHA Omega 3, 6, 9 จากญี่ปุ่น วิตามินสูงจากผักผลไม้ ปลอดภัยสำหรับลูกน้อย">
+    <meta property="og:image" content="https://nominomikids.com/asset/image/logo.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="th_TH">
+    <meta property="og:site_name" content="NOMI NOMI">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://nominomikids.com/">
+    <meta property="twitter:title" content="NOMI NOMI - น้ำผลไม้ผสมผักสำหรับเด็กที่มี DHA">
+    <meta property="twitter:description" content="น้ำผลไม้สำหรับเด็ก หวานน้อย ไม่มีน้ำตาลเพิ่ม มี DHA Omega 3, 6, 9 จากญี่ปุ่น วิตามินสูงจากผักผลไม้ ปลอดภัยสำหรับลูกน้อย">
+    <meta property="twitter:image" content="https://nominomikids.com/asset/image/logo.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://nominomikids.com/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="asset/image/logo.png">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="asset/css/style.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="asset/css/animations.css?v=<?php echo time(); ?>">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <button class="menu-btn">
+            <img src="asset/image/hamburger.png" alt="เมนูหลัก NOMI NOMI">
+        </button>
+        <div class="top-header">
+            <div class="container">
+                <div class="menu">
+                    <ul>
+                        <li><a href="./"><img src="asset/image/menu1.png" alt="หน้าแรก NOMI NOMI น้ำผลไม้ผสมผักสำหรับเด็ก"></a></li>
+                        <li><a href="#why"><img src="asset/image/menu2.png" alt="ทำไมต้องเลือก NOMI NOMI น้ำผลไม้หวานน้อยปลอดภัย"></a></li>
+                        <li><a href="#goods"><img src="asset/image/menu3.png" alt="วิตามินและแร่ธาตุจากน้ำผักผลไม้ DHA Omega 3 6 9"></a></li>
+                        <li><a href="#different"><img src="asset/image/menu4.png" alt="ความแตกต่างระหว่าง NOMI NOMI กับนมและน้ำผลไม้ทั่วไป"></a></li>
+                        <li><a href="#faq"><img src="asset/image/menu5.png" alt="คำถามที่พบบ่อย FAQ เกี่ยวกับน้ำผลไม้ NOMI NOMI"></a></li>
+                        <li><a href="#shop"><img src="asset/image/menu6.png" alt="สั่งซื้อ NOMI NOMI ช่องทางการสั่งซื้อออนไลน์"></a></li>
+                        
+                    </ul>
+                </div>
+                <div class="social">
+                    <ul>
+                        <li><a href="https://lin.ee/9mzQvDp"><img src="asset/image/line.png" alt="ติดต่อ NOMI NOMI ผ่าน LINE" target="_blank"></a></li>
+                        <li><a href="https://www.facebook.com/share/166HziGVaV/?mibextid=wwXIfr" target="_blank"><img src="asset/image/facebook.png" alt="ติดตาม NOMI NOMI บน Facebook"></a></li>
+                        <li><a href="https://www.instagram.com/nominomikids?igsh=MWx4dWZvOXNydTZkbQ==" target="_blank"><img src="asset/image/instagram.png" alt="ติดตาม NOMI NOMI บน Instagram"></a></li>
+                        <li><a href="https://youtube.com/@nominomikids?si=MVmeUisMsV-ocxuX" target="_blank"><img src="asset/image/youtube.png" alt="ติดตาม NOMI NOMI บน YouTube"></a></li>
+                        <li><a href="https://www.tiktok.com/@nominomikids" target="_blank"><img src="asset/image/tiktok-big.png" alt="ติดตาม NOMI NOMI บน TikTok"></a></li>
+                    </ul>
+                    <div class="ul-2">
+                        <a href="https://th.shp.ee/p8ux2hw" target="_blank"><img src="asset/image/shopee.png" alt="สั่งซื้อ NOMI NOMI บน Shopee"></a>
+                        <a href="https://s.lazada.co.th/s.ZZU9Ig" target="_blank"><img src="asset/image/lazada.png" alt="สั่งซื้อ NOMI NOMI บน Lazada"></a>
+                        <a href="https://vt.tiktok.com/ZSHcaK19Judtb-LDNma/" target="_blank"><img src="asset/image/tiktok.png" alt="สั่งซื้อ NOMI NOMI บน TikTok Shop"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-header">
+            <!-- Logo Center -->
+            <div class="logo">
+                <a href="./"><img src="asset/image/logo.png" alt="NOMI NOMI - น้ำผลไม้ผสมผักสำหรับเด็กที่มี DHA"></a>
+            </div>
+        </div>
+        <aside class="menu-mb">
+            <div class="menu">
+                <ul>
+                    <li><a href="./"><img src="asset/image/menu-mb1.png" alt="หน้าแรก NOMI NOMI น้ำผลไม้ผสมผักสำหรับเด็ก"></a></li>
+                    <li><a href="#why"><img src="asset/image/menu-mb2.png" alt="ทำไมต้องเลือก NOMI NOMI น้ำผลไม้หวานน้อยปลอดภัย"></a></li>
+                    <li><a href="#goods"><img src="asset/image/menu-mb3.png" alt="วิตามินและแร่ธาตุจากน้ำผักผลไม้ DHA Omega 3 6 9"></a></li>
+                    <li><a href="#different"><img src="asset/image/menu-mb4.png" alt="ความแตกต่างระหว่าง NOMI NOMI กับนมและน้ำผลไม้ทั่วไป"></a></li>
+                    <li><a href="#faq"><img src="asset/image/menu-mb5.png" alt="คำถามที่พบบ่อย FAQ เกี่ยวกับน้ำผลไม้ NOMI NOMI"></a></li>
+                    <li><a href="#shop"><img src="asset/image/menu-mb6.png" alt="สั่งซื้อ NOMI NOMI ช่องทางการสั่งซื้อออนไลน์"></a></li>
+                </ul>
+            </div>
+            <div class="social">
+                <ul>
+                    <li><a href="https://lin.ee/9mzQvDp"><img src="asset/image/line.png" alt="ติดต่อ NOMI NOMI ผ่าน LINE" target="_blank"></a></li>
+                    <li><a href="https://www.facebook.com/share/166HziGVaV/?mibextid=wwXIfr"><img src="asset/image/facebook.png" alt="ติดตาม NOMI NOMI บน Facebook" target="_blank"></a></li>
+                    <li><a href="https://www.instagram.com/nominomikids?igsh=MWx4dWZvOXNydTZkbQ=="><img src="asset/image/instagram.png" alt="ติดตาม NOMI NOMI บน Instagram" target="_blank"></a></li>
+                    <li><a href="https://youtube.com/@nominomikids?si=MVmeUisMsV-ocxuX"><img src="asset/image/youtube.png" alt="ติดตาม NOMI NOMI บน YouTube" target="_blank"></a></li>
+                    <li><a href="https://www.tiktok.com/@nominomikids"><img src="asset/image/tiktok-big.png" alt="ติดตาม NOMI NOMI บน TikTok" target="_blank"></a></li>
+                </ul>
+                <div class="ul-2">
+                    <a href="https://th.shp.ee/p8ux2hw" target="_blank"><img src="asset/image/shopee.png" alt="สั่งซื้อ NOMI NOMI บน Shopee"></a>
+                    <a href="https://s.lazada.co.th/s.ZZU9Ig" target="_blank"><img src="asset/image/lazada.png" alt="สั่งซื้อ NOMI NOMI บน Lazada"></a>
+                    <a href="https://vt.tiktok.com/ZSHcaK19Judtb-LDNma/" target="_blank"><img src="asset/image/tiktok.png" alt="สั่งซื้อ NOMI NOMI บน TikTok Shop"></a>
+                </div>
+            </div>
+        </aside>
+    </header>
+    <main>
+        <section id="section1">
+            <h1 class="small-title" data-aos="fade-up" data-aos-duration="1000">น้ำผลไม้ผสมผักสำหรับเด็กที่ไม่เหมือนใคร!</h1>
+            <p class="small-title" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">น้ำผลไม้สำหรับเด็ก "เพียงหนึ่งเดียวในไทย" ที่มี DHA เติมเต็มทุกวันของลูกน้อยด้วยคุณค่าสารอาหาร (พัฒนามาเพื่อสุขภาพของลูกน้อยโดยเฉพาะ)</p>
+            <i class="i-1"></i>
+            <i class="i-2"></i>
+            <i class="i-3"></i>
+            <i class="i-4"></i>
+            <div class="container">
+                <img src="asset/image/i-5.png" alt="NOMI NOMI น้ำผลไม้ผสมผักสำหรับเด็กที่มี DHA" class="i-5">
+                <img src="asset/image/i-6.png" alt="น้ำผลไม้สำหรับเด็ก NOMI NOMI ปลอดภัยสำหรับลูกน้อย" class="i-6">
+                <img src="asset/image/i-7.png" alt="NOMI NOMI น้ำผลไม้ผสมผักมีวิตามินสูง" class="i-7">
+                <img src="asset/image/i-8.png" alt="NOMI NOMI น้ำผลไม้สำหรับเด็ก 1 ปีขึ้นไป" class="i-8">
+                <img src="asset/image/i-10.png" alt="NOMI NOMI น้ำผลไม้ผสมผักสำหรับเด็ก" class="i-10">
+                <img src="asset/image/i-11.png" alt="NOMI NOMI น้ำผลไม้เด็กมี DHA Omega 3 6 9" class="i-11">
+                <img src="asset/image/i-12.png" alt="NOMI NOMI น้ำผลไม้ผสมผักหวานน้อย" class="i-12">
+                <img src="asset/image/i-13.png" alt="NOMI NOMI น้ำผลไม้สำหรับเด็กไม่มีน้ำตาลเพิ่ม" class="i-13">
+                <img src="asset/image/i-14.png" alt="NOMI NOMI น้ำผลไม้ผสมผักปลอดภัย" class="i-14">
+                <img src="asset/image/i-15.png" alt="NOMI NOMI น้ำผลไม้เด็กมีวิตามินสูง" class="i-15">
+                <img src="asset/image/i-16.png" alt="NOMI NOMI น้ำผลไม้ผสมผักสำหรับเด็ก" class="i-16">
+                <img src="asset/image/i-17.png" alt="NOMI NOMI น้ำผลไม้เด็กมี DHA" class="i-17">
+                <img src="asset/image/i-18.png" alt="NOMI NOMI น้ำผลไม้ผสมผักสำหรับเด็ก" class="i-18">
+                <img src="asset/image/i-19.png" alt="NOMI NOMI น้ำผลไม้สำหรับเด็กปลอดภัย" class="i-19">
+            </div>
+            <img src="asset/image/i-9.png" alt="NOMI NOMI น้ำผลไม้ผสมผักสำหรับเด็กที่มี DHA Omega 3 6 9" class="i-9">
+        </section>
+        <section id="section2">
+            <i class="i-20"></i>
+            <div class="container content-1" id="why">
+                <img src="asset/image/logo-1.png" alt="NOMI NOMI น้ำผลไม้ผสมผักสำหรับเด็กหวานน้อยปลอดภัย" class="logo-1" data-aos="zoom-in">
+                <i class="i-box" data-aos="zoom-in" data-aos-delay="100"></i>
+                <i class="i-sun" data-aos="zoom-in" data-aos-delay="150"></i>
+                <h2 class="title" data-aos="fade-up">น้ำผักผลไม้สำหรับเด็กหวานน้อยอย่างปลอดภัย</h2>
+                <ul class="list">
+                    <li data-aos="fade-right" data-aos-delay="100">ไม่ใส่น้ำตาล</li>
+                    <li data-aos="fade-right" data-aos-delay="200">ไม่ใส่สารให้ความหวานแทนน้ำตาล</li>
+                </ul>
+            </div>
+            <div class="container content-2 d-flex">
+                <i class="i-maskos" data-aos="zoom-in"></i>
+                <p class="i-boxchat" data-aos="fade-left" data-aos-delay="200">
+                    <b>รู้ไหมว่า...</b><br>
+                    เด็กเล็กยังอยู่ในช่วงเรียนรู้<br>
+                    <b>"รสชาติธรรมชาติ"</b><br>
+                    การให้รสหวานจัดเกินไป<br>
+                    อาจทำให้ติดหวานในระยะยาว
+                </p>
+            </div>
+            <div class="container">
+                <i class="i-star1" data-aos="zoom-in" data-aos-delay="100"></i>
+                <div class="bg-box" data-aos="fade-up">
+                    <p>สารให้ความหวานแทนน้ำตาล อย่างเช่น ซูคราโลส แอสปาร์เทม หรือสตีเวีย<br>ถึงแม้จะไม่มีแคลอรี่ แต่ก็<b>อาจส่งผลเสียต่อร่างกายเด็ก</b></p>
+                </div>
+            </div>
+            <i class="i-23"></i>
+            <i class="i-27"></i>
+            <i class="i-book" data-aos="fade-up" data-aos-delay="100"></i>
+            <i class="i-star3" data-aos="zoom-in" data-aos-delay="150"></i>
+            <div class="container">
+                <i class="i-object" data-aos="zoom-in" data-aos-delay="200"></i>
+                <i class="i-star2" data-aos="zoom-in" data-aos-delay="250"></i>
+                <div class="row">
+                    <div class="col-3" data-aos="fade-right" data-aos-delay="100">
+                        <img src="asset/image/i-24.png" alt="ผลกระทบต่อระบบย่อยอาหารและจุลินทรีย์ในลำไส้จากสารให้ความหวานแทนน้ำตาล" class="i-24">
+                        <h3>กระทบระบบ<br>ย่อยอาหาร</h3>
+                        <p>และจุลินทรีย์ในลำไส้*</p>
+                    </div>
+                    <div class="col-3" data-aos="zoom-in" data-aos-delay="200">
+                        <img src="asset/image/i-25.png" alt="ผลกระทบต่อสมองเรื่องความหิวจากสารให้ความหวานแทนน้ำตาล" class="i-25">
+                        <h3>ทำให้สมอง<br><small>สับสนเรื่องความหิว</small></h3>
+                        <p>อาจกินจุกจิกมากขึ้น*</p>
+                    </div>
+                    <div class="col-3" data-aos="fade-left" data-aos-delay="300">
+                        <img src="asset/image/i-26.png" alt="ผลกระทบจากรสหวานจัดโดยไม่ให้พลังงานจริงเสี่ยงต่อพฤติกรรมติดหวาน" class="i-26">
+                        <h3>รสหวานจัด<br><small>โดยไม่ให้พลังงานจริง</small></h3>
+                        <p>เสี่ยงต่อพฤติกรรมติดหวาน*</p>
+                    </div>
+                </div>
+                <img src="asset/image/logo-2.png" alt="NOMI NOMI น้ำผลไม้ผสมผักสำหรับเด็ก" class="logo-3" data-aos="zoom-in" data-aos-delay="400">
+                <div class="d-flex">
+                    <ul class="list-1">
+                        <li data-aos="fade-right" data-aos-delay="500">รสชาติอ่อนโยน</li>
+                        <li data-aos="fade-right" data-aos-delay="600">หวานน้อยกว่าถึง 45% เมื่อเทียบกับน้ำผลไม้เด็กสูตรปกติทั่วไป</li>
+                        <li data-aos="fade-right" data-aos-delay="700">ปลอดภัยสำหรับลูกน้อย และช่วยสร้างนิสัยการทานที่ดีตั้งแต่เด็ก</li>
+                        <li data-aos="fade-right" data-aos-delay="800">
+                            <p>* แหล่งข้อมูล</p>
+                        <small>https://publications.aap.org/pediatrics/article/144/5/e20192765/38183/The-Use-of-Nonnutritive-Sweeteners-in-Children?autologincheck=redirected<br>
+                        https://multimedia.anamai.moph.go.th/news/050766/?utm_source=chatgpt.com<br>
+                        https://uttaradit.prd.go.th/th/content/page/index/id/184141?utm_source=chatgpt.com</small>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="section3">
+            <h2 class="small-title" data-aos="fade-up">ทำไม DNA ของ NOMI NOMI ถึงดีกว่า?</h2>
+            <div class="container">
+                <i class="i-28" data-aos="fade-up" data-aos-delay="50"></i>
+                <div class="text-center">
+                    <img src="asset/image/title-3.png" alt="ทำไม DNA ของ NOMI NOMI ถึงดีกว่า DHA Omega 3 6 9 จากญี่ปุ่น" class="title-3" data-aos="zoom-in" data-aos-delay="100">
+                </div>
+                <i class="i-star4" data-aos="zoom-in" data-aos-delay="150"></i>
+                <div class="text" data-aos="fade-up" data-aos-delay="200">
+                    <p>เราได้สรรหา <b>DHA Omega 3 6 9</b> และ <b>วิตามินระดับพรีเมียม</b> จากแหล่งที่ดีที่สุดในประเทศญี่ปุ่น<br>
+                    มีโครงสร้างโมเลกุลที่เสถียร ดูดซึมง่าย ทําให้ร่างกายนำไปใช้ได้เต็มประสิทธิภาพ</p>
+                    <p>ส่วนผสมของเราผ่านกระบวนการสกัดบริสุทธิ์อย่างดี<br>
+                    ผ่านมาตรฐานความปลอดภัย เพื่อให้ได้คุณภาพสูงสุดในทุกหยด</p>
+                    <p><b>เหมาะสำหรับพัฒนาการทางสมองของเด็กโดยเฉพาะ</b></p>
+                    <p>น้อง Nomi ของเรามี ใบรับรองคุณภาพและแหล่งที่มา<br>
+                    (Quality & Origin Certificate) เพื่อยืนยันถึงความ<br>
+                    บริสุทธิ์และคุณค่าทางโภชนาการค่ะ</p>
+                </div>
+                <div class="i-object" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="asset/image/i-object1.png" alt="NOMI NOMI น้ำผลไม้ผสมผักสำหรับเด็กมี DHA Omega 3 6 9 จากญี่ปุ่น" class="i-object1">
+                    <i class="i-object2" data-aos="fade-up" data-aos-delay="400"></i>
+                    <i class="i-object3" data-aos="fade-up" data-aos-delay="450"></i>
+                    <i class="i-object4" data-aos="fade-up" data-aos-delay="500"></i>
+                    <i class="i-object5" data-aos="fade-up" data-aos-delay="550"></i>
+                    <i class="i-object6" data-aos="fade-up" data-aos-delay="600"></i>
+                    <i class="i-object7" data-aos="fade-up" data-aos-delay="650"></i>
+                    <i class="i-object8" data-aos="fade-up" data-aos-delay="700"></i>
+                    <i class="i-object9" data-aos="fade-up" data-aos-delay="750"></i>
+                    <i class="i-object10" data-aos="fade-up" data-aos-delay="800"></i>
+                    <i class="i-object11" data-aos="fade-up" data-aos-delay="850"></i>
+                </div>
+                <div class="row">
+                    <div class="col-2" data-aos="fade-right" data-aos-delay="400">
+                        <img src="asset/image/i-node1.png?v=<?php echo time(); ?>" alt="ใบรับรองคุณภาพและแหล่งที่มา Quality & Origin Certificate ของ NOMI NOMI" class="i-node1">
+                    </div>
+                    <div class="col-2" data-aos="fade-left" data-aos-delay="400">
+                        <img src="asset/image/i-node2.png?v=<?php echo time(); ?>" alt="ใบรับรองคุณภาพ NOMI NOMI น้ำผลไม้ผสมผักสำหรับเด็ก" class="i-node2">
+                    </div>
+                </div>
+            </div>
+            <i class="i-star5" data-aos="zoom-in" data-aos-delay="500"></i>
+            <i class="i-book" data-aos="fade-up" data-aos-delay="550"></i>
+            <i class="i-29" data-aos="zoom-in" data-aos-delay="600"></i>
+            <i class="i-30" data-aos="fade-up" data-aos-delay="650"></i>
+        </section>
+        <section id="section4">
+            <h2 class="small-title" data-aos="fade-up">ใครเหมาะกับ nomi nomi ?</h2>
+            <h3 class="small-title" data-aos="fade-up" data-aos-delay="100">mixed fruit & veggie juice</h3>
+            <div class="container">
+                <div class="text-center">
+                    <img src="asset/image/title-4.png" alt="ใครเหมาะกับ NOMI NOMI Mixed Fruit & Veggie Juice" class="title-4" data-aos="zoom-in" data-aos-delay="200">
+                </div>
+                <img src="asset/image/i-maskos-big.png" alt="NOMI NOMI เหมาะสำหรับเด็กอายุ 1 ปีขึ้นไปและเด็กที่ไม่ชอบทานผัก" class="i-maskos-big" data-aos="zoom-in" data-aos-delay="300">
+                <i class="i-31" data-aos="fade-up" data-aos-delay="350"></i>
+                <i class="i-32" data-aos="fade-up" data-aos-delay="400"></i>
+                <i class="i-33" data-aos="fade-up" data-aos-delay="450"></i>
+                <span class="box-1" data-aos="fade-right" data-aos-delay="400">เด็กอายุ 1 ปีขึ้นไป</span>
+                <span class="box-2" data-aos="fade-left" data-aos-delay="450">เด็กที่ไม่ชอบทานผัก</span>
+                <span class="box-3" data-aos="fade-right" data-aos-delay="500">เด็กที่แพ้นมวัว</span>
+                <span class="box-4" data-aos="fade-left" data-aos-delay="550">ผู้ใหญ่ที่อยากดื่มน้ำผลไม้<br>เพื่อสุขภาพที่ไม่หวานจัด</span>
+                <span class="box-5" data-aos="fade-up" data-aos-delay="600">ทุกคนที่ต้องการวิตามินและ<br>OMEGA ในชีวิตประจำวัน</span>
+            </div>
+            <i class="i-34" data-aos="zoom-in" data-aos-delay="500"></i>
+            <i class="i-35" data-aos="zoom-in" data-aos-delay="550"></i>
+        </section>
+        <section id="section5">
+            <div class="content-1">
+                <div class="container">
+                    <img src="asset/image/i-maskos-2.png" alt="NOMI NOMI สำหรับเด็กที่ไม่ชอบทานผัก" class="i-maskos-2" data-aos="fade-right">
+                    <h2 class="title-5" data-aos="fade-left" data-aos-delay="100">สำหรับเด็กที่<br>ไม่ชอบทานผัก</h2>
+                    <p class="text-5" data-aos="fade-up" data-aos-delay="200">เด็กหลายคนไม่ชอบรสหรือเนื้อสัมผัส<br>
+                    ของผัก 
+                    <img src="asset/image/logo-2.png" alt="NOMI NOMI" class="logo-mini"> เป็นตัวช่วย<br>
+                    ที่อร่อย และได้คุณค่าทางโภชนาการ</p>
+                </div>
+                <i class="i-36" data-aos="zoom-in" data-aos-delay="300"></i>
+                <i class="i-37" data-aos="zoom-in" data-aos-delay="350"></i>
+            </div>
+            <i class="i-38" data-aos="fade-up" data-aos-delay="400"></i>
+            <div class="content-2">
+                <div class="container">
+                    <div class="bg row" data-aos="fade-up">
+                        <div class="col-2">
+                            <div class="item" data-aos="fade-right" data-aos-delay="100">
+                                <i class="i-42"></i>
+                                <h3>ได้รับวิตามิน<br>และสารอาหาร</h3>
+                            </div>
+                            <div class="item" data-aos="fade-right" data-aos-delay="200">
+                                <i class="i-43"></i>  
+                                <h3>ดีต่อสุขภาพ</h3>  
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <img src="asset/image/i-maskos-3.png" alt="NOMI NOMI ช่วยให้เด็กได้รับวิตามินและสารอาหารดีต่อสุขภาพ" class="i-maskos-3" data-aos="zoom-in" data-aos-delay="300">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <i class="i-39" data-aos="fade-up" data-aos-delay="400"></i>
+            <i class="i-40" data-aos="zoom-in" data-aos-delay="450"></i>
+            <i class="i-41" data-aos="zoom-in" data-aos-delay="500"></i>
+        </section>
+        <section id="section6">
+            <h2 class="small-title" data-aos="fade-up">ทำไมลูกดื่ม NOMI NOMI ได้ทุกวัน ?</h2>
+            <div class="container">
+                <div class="text-center">
+                    <img src="asset/image/title-6.png" alt="ทำไมลูกดื่ม NOMI NOMI ได้ทุกวัน" class="title-6" data-aos="zoom-in" data-aos-delay="100">
+                </div>
+                <div class="row">
+                    <div class="col-3" data-aos="fade-up" data-aos-delay="200">
+                        <img src="asset/image/i-44.png" alt="NOMI NOMI เพิ่มวิตามินในทุกแก้ว" class="i-44">
+                        <h3>เพิ่มวิตามินในทุกแก้ว</h3>
+                    </div>
+                    <div class="col-3" data-aos="fade-up" data-aos-delay="300">
+                        <img src="asset/image/i-45.png" alt="NOMI NOMI เสริม DHA Omega 3 6 9 ช่วยบำรุงสมองและระบบประสาท" class="i-45">
+                        <h3>เสริม DHA โอเมก้า<br>
+                        3, 6, 9 ช่วยบำรุงสมอง<br>
+                        และระบบประสาท</h3>
+                    </div>
+                    <div class="col-3" data-aos="fade-up" data-aos-delay="400">
+                        <img src="asset/image/i-46.png" alt="NOMI NOMI หวานจากธรรมชาติเท่านั้นไม่มีน้ำตาลเพิ่ม" class="i-46">
+                        <h3>หวานจากธรรมชาติเท่านั้น!<br>
+                        ไม่มีน้ำตาลเพิ่ม
+                        </h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3" data-aos="fade-up" data-aos-delay="100">
+                        <img src="asset/image/i-47.png" alt="NOMI NOMI ไม่มีวัตถุกันเสีย" class="i-47">
+                        <h3>ไม่มีวัตถุกันเสีย</h3>
+                    </div>
+                    <div class="col-3" data-aos="fade-up" data-aos-delay="200">
+                        <img src="asset/image/i-48.png" alt="NOMI NOMI ตัวช่วยสำหรับเด็กที่ไม่ชอบทานผัก" class="i-48">
+                        <h3>ตัวช่วยสำหรับเด็ก<br>
+                        ที่ไม่ชอบทานผัก</h3>
+                    </div>
+                    <div class="col-3" data-aos="fade-up" data-aos-delay="300">
+                        <img src="asset/image/i-49.png" alt="NOMI NOMI ดื่มง่ายได้สารอาหาร" class="i-49">
+                        <h3>ดื่มง่าย<br>
+                        ได้สารอาหาร</h3>
+                    </div>
+                </div>
+            </div>
+            <i class="i-50" data-aos="fade-up" data-aos-delay="400"></i>
+            <i class="i-51" data-aos="zoom-in" data-aos-delay="450"></i>
+            <i class="i-52" data-aos="zoom-in" data-aos-delay="500"></i>
+            <i class="i-53" data-aos="fade-up" data-aos-delay="550"></i>
+            <i class="i-54" data-aos="zoom-in" data-aos-delay="600"></i>
+        </section>
+        <section id="section7">
+           <div class="content-1" id="goods">
+                <div class="container">
+                    <h2 class="title-7" data-aos="fade-up">วิตามินและแร่ธาตุ<br>
+                    <b>จากน้ำผักผลไม้</b></h2>
+                    <div class="row">
+                        <div class="col-3" data-aos="fade-up" data-aos-delay="100">
+                            <img src="asset/image/i-71.png" alt="NOMI NOMI น้ำผลไม้ผสมผักมีวิตามิน A เบต้าแคโรทีนและโพแทสเซียม" class="big">
+                            <div class="bg">
+                                <div class="item">
+                                    <img src="asset/image/i-74.png" alt="วิตามิน A ใน NOMI NOMI บำรุงสายตาและภูมิคุ้มกัน" class="small">
+                                    <div class="">
+                                        <h3>วิตามิน A</h3>
+                                        <p>บำรุงสายตาและภูมิคุ้มกัน</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="asset/image/i-75.png" alt="เบต้าแคโรทีนใน NOMI NOMI ช่วยลดการอักเสบ" class="small">
+                                    <div class="">
+                                        <h3>เบต้าแคโรทีน</h3>
+                                        <p>ช่วยลดการอักเสบ</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="asset/image/i-76.png" alt="โพแทสเซียมใน NOMI NOMI ช่วยให้หัวใจแข็งแรงกล้ามเนื้อทำงานดี" class="small">
+                                    <div class="">
+                                        <h3>โพแทสเซียม</h3>
+                                        <p>ช่วยให้หัวใจแข็งแรง<br>
+                                        กล้ามเนื้อทำงานดี</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3" data-aos="fade-up" data-aos-delay="200">
+                            <img src="asset/image/i-72.png" alt="NOMI NOMI น้ำผลไม้ผสมผักมีวิตามิน C และสารต้านอนุมูลอิสระ" class="big">
+                            <div class="bg">
+                                <div class="item">
+                                    <img src="asset/image/i-77.png" alt="วิตามิน C ใน NOMI NOMI เสริมภูมิคุ้มกัน" class="small">
+                                    <div class="">
+                                        <h3>วิตามิน C</h3>
+                                        <p>เสริมภูมิคุ้มกัน</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="asset/image/i-78.png" alt="สารต้านอนุมูลอิสระใน NOMI NOMI ชะลอความเสื่อมของเซลล์" class="small">
+                                    <div class="">
+                                        <h3>สารต้านอนุมูล<br>
+                                        อิสระ</h3>
+                                        <p>ชะลอความเสื่อมของเซลล์<br>
+                                        เสริมภูมิคุ้มกัน</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3" data-aos="fade-up" data-aos-delay="300">
+                            <img src="asset/image/i-73.png" alt="NOMI NOMI น้ำผลไม้ผสมผักมีวิตามิน C สูง กรดซิตริกและสารต้านแบคทีเรีย" class="big">
+                            <div class="bg">
+                                <div class="item">
+                                    <img src="asset/image/i-79.png" alt="วิตามิน C สูงใน NOMI NOMI เพิ่มความสดชื่นป้องกันหวัด" class="small">
+                                    <div class="">
+                                        <h3>วิตามิน C สูง</h3>
+                                        <p>เพิ่มความสดชื่น ป้องกันหวัด<br>
+                                        ช่วยให้ร่างกายดูดซึม<br>
+                                        ธาตุเหล็กดีขึ้น</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="asset/image/i-80.png" alt="กรดซิตริกใน NOMI NOMI ช่วยดูดซึมแร่ธาตุและกระตุ้นการย่อยอาหาร" class="small">
+                                    <div class="">
+                                        <h3>กรดซิตริก</h3>
+                                        <p>ช่วยดูดซึมแร่ธาตุในร่างกาย<br>
+                                        กระตุ้นการย่อยอาหาร</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="asset/image/i-81.png" alt="สารต้านแบคทีเรียใน NOMI NOMI เสริมสุขภาพปากและฟัน" class="small">
+                                    <div class="">
+                                        <h3>สารต้านแบคทีเรีย</h3>
+                                        <p>เสริมสุขภาพปากและฟัน</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+           <div class="content-2">
+                <div class="container">
+                    <div class="text-center">
+                        <h2 data-aos="fade-up">เน้นสารอาหาร เพื่อพัฒนาการสมอง <span>*</span></h2>
+                        <p data-aos="fade-up" data-aos-delay="100"><img src="asset/image/logo-2.png" alt="NOMI NOMI">อุดมไปด้วย DHA Omega 3, 6, 9 ที่สำคัญ<br>
+                        ต่อพัฒนาการของสมองและระบบประสาทของเด็ก</p>
+                        <div class="bg" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="asset/image/i-82.png" alt="DHA ใน NOMI NOMI ช่วยเพิ่มสมาธิ">
+                                    <h4>ช่วยเพิ่มสมาธิ</h4>
+                                </div>
+                                <div class="col-3">
+                                    <img src="asset/image/i-83.png" alt="DHA ใน NOMI NOMI ส่งเสริมความจำ">
+                                    <h4>ส่งเสริมความจำ</h4>
+                                </div>
+                                <div class="col-3">
+                                    <img src="asset/image/i-84.png" alt="DHA ใน NOMI NOMI พัฒนาทักษะการเรียนรู้">
+                                    <h4>พัฒนาทักษะการเรียนรู้</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 data-aos="fade-up" data-aos-delay="300">*แหล่งข้อมูล</h3>
+                    <p class="small" data-aos="fade-up" data-aos-delay="400">https://nutritionsource.hsph.harvard.edu/what-should-you-eat/fats-and-cholesterol/types-of-fat/omega-3-fats/
+                    <br>https://ods.od.nih.gov/factsheets/Omega3FattyAcids-Consumer/</p>
+                </div>
+           </div>
+        </section>
+        <section id="section8">
+            <div class="content-1" id="different">
+                <div class="container">
+                    <h2 data-aos="fade-up"><span class="span-0">ดื่ม</span> <img src="asset/image/logo-2.png" alt="NOMI NOMI"> <br> <span class="span-1">แตกต่างกับดื่มนมทั่วไป</span> <span class="span-2">อย่างไร?</span></h2>
+                    <div class="row">
+                        <div class="col-2" data-aos="fade-right" data-aos-delay="100">
+                            <div class="content-img">
+                                <img src="asset/image/i-86.png" alt="วิตามินและแร่ธาตุจากผักผลไม้ใน NOMI NOMI" class="i-86 animate-float-item" data-aos="zoom-in" data-aos-delay="500">
+                                <img src="asset/image/i-87.png" alt="วิตามิน A จากผักผลไม้ใน NOMI NOMI" class="i-87 animate-float-item" data-aos="zoom-in" data-aos-delay="550">
+                                <img src="asset/image/i-88.png" alt="วิตามิน C จากผักผลไม้ใน NOMI NOMI" class="i-88 animate-float-item" data-aos="zoom-in" data-aos-delay="600">
+                                <img src="asset/image/i-89.png" alt="แร่ธาตุจากผักผลไม้ใน NOMI NOMI" class="i-89 animate-float-item" data-aos="zoom-in" data-aos-delay="650">
+                                <img src="asset/image/i-88.png" alt="วิตามินจากผักผลไม้ใน NOMI NOMI" class="i-90 animate-float-item" data-aos="zoom-in" data-aos-delay="700">
+                                <img src="asset/image/i-88.png" alt="สารอาหารจากผักผลไม้ใน NOMI NOMI" class="i-91 animate-float-item" data-aos="zoom-in" data-aos-delay="750">
+                                <img src="asset/image/i-92.png" alt="วิตามินและแร่ธาตุใน NOMI NOMI" class="i-92 animate-float-item" data-aos="zoom-in" data-aos-delay="800">
+                                <img src="asset/image/i-93.png" alt="สารอาหารจากผักผลไม้ใน NOMI NOMI" class="i-93 animate-float-item" data-aos="zoom-in" data-aos-delay="850">
+                            </div>
+                            <p><img src="asset/image/logo-2.png" alt="NOMI NOMI" > ให้ทั้ง<br>
+                            วิตามิน A, C<br>
+                            <span>และแร่ธาตุจากผักผลไม้</span></p>
+                        </div>
+                        <div class="col-2" data-aos="fade-left" data-aos-delay="100">
+                            <img src="asset/image/i-85.png" alt="NOMI NOMI น้ำผลไม้ผสมผักให้วิตามินและแร่ธาตุจากผักผลไม้" class="i-85" data-aos="zoom-in" data-aos-delay="100">
+                            <img src="asset/image/i-94.png" alt="วิตามินจากผักผลไม้ใน NOMI NOMI" class="i-94 animate-float-item" data-aos="zoom-in" data-aos-delay="500">
+                            <img src="asset/image/i-95.png" alt="แร่ธาตุจากผักผลไม้ใน NOMI NOMI" class="i-95 animate-float-item" data-aos="zoom-in" data-aos-delay="600">
+                            <img src="asset/image/i-96.png" alt="สารอาหารจากผักผลไม้ใน NOMI NOMI" class="i-96 animate-float-item" data-aos="zoom-in" data-aos-delay="700">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-2" data-aos="fade-up" data-aos-delay="100">
+                            <div class="item">
+                                <img src="asset/image/i-97.png" alt="NOMI NOMI ไม่มีแลคโตสเด็กที่แพ้นมดื่มได้" class="i-97">
+                                <div class="">
+                                    <h3>ไม่มีแลคโตส</h3>
+                                    <p>เด็กที่แพ้นมดื่มได้</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="asset/image/i-98.png" alt="NOMI NOMI ไม่มีไขมันอิ่มตัวแคลอรี่น้อยกว่า" class="i-98">
+                                <div class="">
+                                    <h3>ไม่มีไขมันอิ่มตัว</h3>
+                                    <p>แคลอร่ีน้อยกว่า</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2" data-aos="fade-up" data-aos-delay="200">
+                            <div class="item">
+                                <img src="asset/image/i-99.png" alt="NOMI NOMI ไม่มีปัญหาท้องอืดท้องเสียจากนมวัว" class="i-99">
+                                <div class="">
+                                    <h3>ไม่มีปัญหาท้องอืด</h3>
+                                    <p>ท้องเสียจากนมวัว</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section9">
+            <div class="content-1">
+                <div class="container">
+                    <div class="row" data-aos="fade-up">
+                        <div class="col-2">
+                            <img src="asset/image/logo-2.png" alt="NOMI NOMI" class="logo-2">
+                        </div>
+                        <div class="col-2">
+                            <h2 class="title-9">นมวัวทั่วไป</h2>
+                        </div>
+                    </div>
+                    <div class="item" data-aos="fade-down" data-aos-delay="100">
+                        <div class="left">
+                            <h3>DHA 23mg. สูงกว่า<br>
+                            นมหลายแบรนด์</h3>
+                        </div>
+                        <img src="asset/image/i-100.png" alt="เปรียบเทียบ DHA ระหว่าง NOMI NOMI กับนมวัวทั่วไป" class="i-100">
+                        <div class="right">
+                            <h3>มีเฉพาะในนมเสริม<br>
+                            บางสูตร</h3>
+                        </div>
+                    </div>
+                    <div class="item" data-aos="fade-down" data-aos-delay="200">
+                        <div class="left">
+                            <h3>วิตามินจากผักผลไม้</h3>
+                        </div>
+                        <img src="asset/image/i-101.png" alt="เปรียบเทียบวิตามินระหว่าง NOMI NOMI กับนมวัวทั่วไป" class="i-100">
+                        <div class="right">
+                            <h3>วิตามินจานม</h3>
+                        </div>
+                    </div>
+                    <div class="item" data-aos="fade-down" data-aos-delay="300">
+                        <div class="left">
+                            <h3>ไม่มีแลคโตส<br>
+                            เหมาะกับเด็กที่แพ้นมวัว</h3>
+                        </div>
+                        <img src="asset/image/i-102.png" alt="เปรียบเทียบแลคโตสระหว่าง NOMI NOMI กับนมวัวทั่วไป" class="i-100">
+                        <div class="right">
+                            <h3>มีแลคโตส</h3>
+                        </div>
+                    </div>
+                    <div class="item" data-aos="fade-down" data-aos-delay="400">
+                        <div class="left">
+                            <h3>ไม่มีน้ำตาลเติมเพิ่ม</h3>
+                        </div>
+                        <img src="asset/image/i-103.png" alt="เปรียบเทียบน้ำตาลระหว่าง NOMI NOMI กับนมวัวทั่วไป" class="i-100">
+                        <div class="right">
+                            <h3>มีน้ำตาลเพิ่มในนม<br>
+                            รสต่างๆ</h3>
+                        </div>
+                    </div>
+                    <div class="item" data-aos="fade-down" data-aos-delay="500">
+                        <div class="left">
+                            <h3>ไม่มีผลกระทบในการ<br>
+                            ขับถ่าย</h3>
+                        </div>
+                        <img src="asset/image/i-104.png" alt="เปรียบเทียบผลกระทบต่อการขับถ่ายระหว่าง NOMI NOMI กับนมวัวทั่วไป" class="i-100">
+                        <div class="right">
+                            <h3>Lactose อาจทำให้<br>
+                            ท้องอืด/ท้องเสีย</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-2">
+                <div class="container">
+                    <div class="row" data-aos="fade-up">
+                        <div class="col-2">
+                            <img src="asset/image/logo-2.png" alt="NOMI NOMI" class="logo-2">
+                        </div>
+                        <div class="col-2">
+                            <h2 class="title-9">น้ำผลไม้ทั่วไป</h2>
+                        </div>
+                    </div>
+                    <div class="item" data-aos="fade-down" data-aos-delay="100">
+                        <div class="left">
+                            <h3>มี DHA จากญี่ปุ่น</h3>
+                        </div>
+                        <img src="asset/image/i-100.png" alt="เปรียบเทียบ DHA ระหว่าง NOMI NOMI กับน้ำผลไม้ทั่วไป" class="i-100">
+                        <div class="right">
+                            <h3>ไม่มี DHA</h3>
+                        </div>
+                    </div>
+                    <div class="item" data-aos="fade-down" data-aos-delay="200">
+                        <div class="left">
+                            <h3>วิตามินจากผักผลไม้<br>
+                            สูงจากธรรมชาติ</h3>
+                        </div>
+                        <img src="asset/image/i-101.png" alt="เปรียบเทียบวิตามินระหว่าง NOMI NOMI กับน้ำผลไม้ทั่วไป" class="i-100">
+                        <div class="right">
+                            <h3>วิตามินจากผักผลไม้</h3>
+                        </div>
+                    </div>
+                    <div class="item" data-aos="fade-down" data-aos-delay="300">
+                        <div class="left">
+                            <h3>ไม่มีน้ำตาลเติมเพิ่ม</h3>
+                        </div>
+                        <img src="asset/image/i-103.png" alt="เปรียบเทียบน้ำตาลระหว่าง NOMI NOMI กับน้ำผลไม้ทั่วไป" class="i-100">
+                        <div class="right">
+                            <h3>บางแบรนด์มีน้ำตาลสูง<br>
+                            หรือเพิ่มน้ำตาลเทียม</h3>
+                        </div>
+                    </div>
+                    <div class="item" data-aos="fade-down" data-aos-delay="400">
+                        <div class="left">
+                            <h3>ไม่มีสารกันเสีย<br>
+                            ไม่มีสีสังเคราะห์</h3>
+                        </div>
+                        <img src="asset/image/i-105.png" alt="เปรียบเทียบสารกันเสียระหว่าง NOMI NOMI กับน้ำผลไม้ทั่วไป" class="i-100">
+                        <div class="right">
+                            <h3>มีบ้างบางแบรนด์</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section10">
+            <div class="content-1">
+                <div class="container">
+                    <div class="text" data-aos="fade-up">
+                        <h3 data-aos="fade-right" data-aos-delay="100"><span>1</span>แหล่งที่มาของวัตถุดิบ</h3>
+                        <p data-aos="fade-up" data-aos-delay="150"><img src="asset/image/logo-2.png" alt="NOMI NOMI" class="logo-2"> เลือกใช้น้ำผลไม้และผักแท้<br>
+                        จากแหล่งผลิตที่ปลอดภัยและเชื่อถือได้</p>
+
+                        <h3 data-aos="fade-right" data-aos-delay="200"><span>2</span>กระบวนการผลิต</h3>
+                        <p data-aos="fade-up" data-aos-delay="250">เราใช้บรรจุภัณฑ์ Tetra Pak ที่มีความปลอดภัย<br>
+                        ระดับสากล ป้องกันอากาศ แสง และเชื้อโรคจากภายนอก<br>
+                        โดยไม่ต้องใช้สารกันบูด</p>
+                        <ul class="list-1" data-aos="fade-right" data-aos-delay="300">
+                            <li>เก็บคุณภาพและรสชาติได้นาน</li>
+                            <li>ปลอดภัยต่อเด็ก</li>
+                            <li>น้ำหนักเบา พกพาสะดวก</li>
+                            <li>เป็นมิตรต่อสิ่งแวดล้อม สามารถรีไซเคิลได้</li>
+                        </ul>
+                        <p data-aos="fade-up" data-aos-delay="350">ทุกขวดของ <img src="asset/image/logo-2.png" alt="NOMI NOMI" class="logo-2"> ผ่านการบรรจุในระบบ<br>
+                        ปลอดเชื้อ (Aseptic Filling) ภายในโรงงานที่ได้มาตรฐาน<br>
+                        GMP และ HACCP</p>
+
+                        <h3 data-aos="fade-right" data-aos-delay="300"><span>3</span>การรับรองคุณภาพ</h3>
+                        <p data-aos="fade-up" data-aos-delay="350"><img src="asset/image/logo-2.png" alt="NOMI NOMI" class="logo-2"> ได้รับการรับรองจากหน่วยงานที่เชื่อถือได้</p>
+                        <img src="asset/image/i-107.png" alt="ใบรับรองคุณภาพ NOMI NOMI อย. GMP HACCP Halal" class="i-107" data-aos="zoom-in" data-aos-delay="400">
+                        <ul class="list-2" data-aos="fade-right" data-aos-delay="450">
+                            <li>อย. (สำนักงานคณะกรรมการอาหารและยา)</li>
+                            <li>GMP และ HACCP มาตรฐานด้านการผลิตและ<br>
+                            ความปลอดภัยทางอาหารระดับสากล</li>
+                            <li>Halal</li>
+                        </ul>
+
+                    </div>
+                    <div class="content-img">
+                        <img src="asset/image/i-maskos-4.png" alt="NOMI NOMI กระบวนการผลิตที่ปลอดภัยและได้มาตรฐาน" data-aos="zoom-in" data-aos-delay="100">
+                        <i class="i-108 animate-float-item" data-aos="fade-up" data-aos-delay="500"></i>
+                        <i class="i-109 animate-float-item" data-aos="fade-up" data-aos-delay="600"></i>
+                        <i class="i-110 animate-float-item" data-aos="fade-up" data-aos-delay="700"></i>
+                        <i class="i-111 animate-float-item" data-aos="fade-up" data-aos-delay="800"></i>
+                    </div>
+                    <i class="i-112" data-aos="zoom-in" data-aos-delay="300"></i>
+                    <i class="i-113" data-aos="zoom-in" data-aos-delay="350"></i>
+                    <i class="i-114" data-aos="zoom-in" data-aos-delay="400"></i>
+                    <i class="i-115" data-aos="zoom-in" data-aos-delay="450"></i>
+                </div>
+            </div>
+            <div class="content-2" id="faq">
+                <h2 data-aos="fade-up">คำถามที่พบบ่อย</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-2">
+                            <div class="item" data-aos="fade-up" data-aos-delay="100">
+                                <h3>เด็กอายุเท่าไรถึงเริ่มดื่มได้?</h3>
+                                <p>เหมาะสำหรับเด็กอายุ 1 ปีขึ้นไป<br>
+                                ที่เริ่มทานอาหารหลากหลายแล้ว</p>
+                            </div>
+                            <div class="item" data-aos="fade-up" data-aos-delay="200">
+                                <h3>ดื่มทุกวันได้ไหม..มีผลเสียหรือเปล่า?</h3>
+                                <p>เราแนะนำให้ดื่ม 1-2 กล่องต่อวัน<br>
+                                    เพื่อเสริมวิตามิน และสารอาหารจากผักผลไม้</p>
+                            </div>
+                            <div class="item" data-aos="fade-up" data-aos-delay="300">
+                                <h3>ดื่มแทนนมได้ไหม?</h3>
+                                <p>ไม่แนะนำให้ดื่มแทนนมค่ะ เพราะน้ำผลไม้<br>
+                                    ไม่มีแคลเซียมและโปรตีนเท่ากับนม แต่สามารถ<br>
+                                    ดื่มเสริมในช่วงระหว่างวันหรือใช้เป็นของว่าง<br>
+                                    เพื่อให้ได้สารอาหารหลากหลาย</p>
+                            </div>
+                            <div class="item" data-aos="fade-up" data-aos-delay="400">
+                                <h3>เด็กดื่มแล้วจะติดหวานไหม?</h3>
+                                <p><img src="asset/image/logo-2.png" alt="NOMI NOMI" class="logo-2"> ไม่มีการเติมน้ำตาลเพิ่ม<br>
+                                และ หวานน้อยกว่าสูตรปกติทั่วไป 45%<br>
+                                การเลือกเครื่องดื่มที่ไม่หวานจัดตั้งแต่เด็ก<br>
+                                จะช่วยลดความเสี่ยงต่อการติดหวานในอนาคต</p>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="item" data-aos="fade-up" data-aos-delay="100">
+                                <h3>เด็กแพ้ง่ายดื่มได้ไหม?</h3>
+                                <p>ควรอ่านส่วนผสมก่อนดื่ม หากเด็กแพ้ผลไม้<br>
+                                บางชนิด เช่น แอปเปิ้ล มะนาว ควรหลีกเลี่ยง<br>
+                                (เราไม่มีแลคโตส ถั่ว หรือกลูเตนในสูตร)
+                                </p>
+                            </div>
+                            <div class="item" data-aos="fade-up" data-aos-delay="200">
+                                <h3>ต้องแช่เย็นไหม..เก็บได้นานแค่ไหน?</h3>
+                                <p>ก่อนเปิดไม่ต้องแช่เย็นค่ะ หลังเปิดแล้ว ควรแช่เย็น<br>
+                                และดื่มให้หมดภายใน 24 ชั่วโมงเพื่อความสดใหม่<br>
+                                และปลอดภัย
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-img">
+                        <i class="i-128" data-aos="zoom-in" data-aos-delay="500"></i>
+                        <i class="i-129" data-aos="zoom-in" data-aos-delay="550"></i>
+                        <i class="i-130" data-aos="zoom-in" data-aos-delay="600"></i>
+                        <i class="i-131" data-aos="zoom-in" data-aos-delay="650"></i>
+                        <i class="i-132" data-aos="zoom-in" data-aos-delay="700"></i>
+                        <i class="i-133" data-aos="zoom-in" data-aos-delay="750"></i>
+                        <i class="i-134" data-aos="zoom-in" data-aos-delay="800"></i>
+                    </div>
+                </div>
+                <i class="i-117" data-aos="fade-up" data-aos-delay="300"></i>
+                <i class="i-118" data-aos="zoom-in" data-aos-delay="350"></i>
+                <i class="i-119" data-aos="zoom-in" data-aos-delay="400"></i>
+                <i class="i-120" data-aos="fade-up" data-aos-delay="450"></i>
+            </div>
+        </section>
+        <section id="section11">
+            <img src="asset/image/i-1112.png?v=<?php echo time(); ?>" alt="NOMI NOMI น้ำผลไม้ผสมผักสำหรับเด็ก" class="i-1112" data-aos="fade-up" data-aos-delay="100">
+            <div class="container">
+            <div class="content-img">
+                <img src="asset/image/i-1114.png?v=<?php echo time(); ?>" alt="NOMI NOMI น้ำผลไม้ผสมผักสำหรับเด็ก" class="i-1114" data-aos="zoom-in" data-aos-delay="200">
+                <img src="asset/image/i-1115.png?v=<?php echo time(); ?>" alt="ผลไม้และผักใน NOMI NOMI" class="i-1115 animate-fruit-blink" data-aos="zoom-in" data-aos-delay="250">
+                <img src="asset/image/i-1115.png?v=<?php echo time(); ?>" alt="ผักผลไม้ใน NOMI NOMI" class="i-1117 animate-fruit-blink" data-aos="zoom-in" data-aos-delay="300">
+                <img src="asset/image/i-1115.png?v=<?php echo time(); ?>" alt="ผลไม้ใน NOMI NOMI" class="i-1118 animate-fruit-blink" data-aos="zoom-in" data-aos-delay="350">
+                <img src="asset/image/i-1115.png?v=<?php echo time(); ?>" alt="ผักผลไม้ธรรมชาติใน NOMI NOMI" class="i-1119 animate-fruit-blink" data-aos="zoom-in" data-aos-delay="400">
+                <img src="asset/image/i-1115.png?v=<?php echo time(); ?>" alt="ผลไม้ผสมผักใน NOMI NOMI" class="i-1120 animate-fruit-blink" data-aos="zoom-in" data-aos-delay="450">
+                <img src="asset/image/i-1115.png?v=<?php echo time(); ?>" alt="ผักผลไม้ใน NOMI NOMI" class="i-1121 animate-fruit-blink" data-aos="zoom-in" data-aos-delay="500">
+                <img src="asset/image/i-1115.png?v=<?php echo time(); ?>" alt="ผลไม้ธรรมชาติใน NOMI NOMI" class="i-1122 animate-fruit-blink" data-aos="zoom-in" data-aos-delay="550">
+                <img src="asset/image/i-1115.png?v=<?php echo time(); ?>" alt="ผักผลไม้ใน NOMI NOMI" class="i-1123 animate-fruit-blink" data-aos="zoom-in" data-aos-delay="600">
+            </div>
+            <img src="asset/image/i-1116.png?v=<?php echo time(); ?>" alt="NOMI NOMI น้ำผลไม้ผสมผักสำหรับเด็กที่มี DHA" class="i-1116" data-aos="fade-up" data-aos-delay="700">
+            </div>
+        </section>
+        <section id="section12">
+            <div class="container" id="shop">
+                <div class="row">
+                    <div class="col-2" data-aos="fade-right">
+                        <img src="asset/image/logo-black.png?v=<?php echo time(); ?>" alt="NOMI NOMI - น้ำผลไม้ผสมผักสำหรับเด็กที่มี DHA" class="logo-black">
+                        <img src="asset/image/i-122.png?v=<?php echo time(); ?>" alt="NOMI NOMI น้ำผลไม้ผสมผักสำหรับเด็ก" class="i-122">
+                        <div class="row">
+                            <div class="col-5">
+                                <a href="https://lin.ee/9mzQvDp" target="_blank" data-aos="zoom-in" data-aos-delay="200"><img src="asset/image/line-big.png" alt="ติดต่อ NOMI NOMI ผ่าน LINE" class="line"></a>
+                            </div>
+                            <div class="col-5">
+                                <a href="https://www.facebook.com/share/166HziGVaV/?mibextid=wwXIfr" target="_blank" data-aos="zoom-in" data-aos-delay="250"><img src="asset/image/facebook-big.png" alt="ติดตาม NOMI NOMI บน Facebook" class="facebook"></a>
+                            </div>
+                            <div class="col-5">
+                                <a href="https://www.instagram.com/nominomikids?igsh=MWx4dWZvOXNydTZkbQ==" target="_blank" data-aos="zoom-in" data-aos-delay="300"><img src="asset/image/instagram-big.png" alt="ติดตาม NOMI NOMI บน Instagram" class="instagram"></a>
+                            </div>
+                            <div class="col-5">
+                                <a href="https://youtube.com/@nominomikids?si=MVmeUisMsV-ocxuX" target="_blank" data-aos="zoom-in" data-aos-delay="350"><img src="asset/image/youtube-big.png" alt="ติดตาม NOMI NOMI บน YouTube" class="youtube"></a>
+                            </div>
+                            <div class="col-5">
+                                <a href="https://www.tiktok.com/@nominomikids" target="_blank" data-aos="zoom-in" data-aos-delay="350"><img src="asset/image/tiktok-big.png" alt="ติดตาม NOMI NOMI บน TikTok" class="tiktok"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2" data-aos="fade-left" data-aos-delay="100">
+                        <h2>ช่องทางการสั่งซื้อ</h2>
+                        <p>สามารถหาซื้อ Nomi Nomi ได้แล้ววันนี้ที่</p>
+                        <!-- <div class="bg bg-1">
+                            <div class="row">
+                                <div class="col-2">
+                                    <a href="" target="_blank" data-aos="zoom-in" data-aos-delay="200"><img src="asset/image/gm-market.png?v=<?php echo time(); ?>" alt="Image" class="i-124"></a>
+                                </div>
+                                <div class="col-2">
+                                    <a href="" target="_blank" data-aos="zoom-in" data-aos-delay="250"><img src="asset/image/tops.png?v=<?php echo time(); ?>" alt="Image" class="i-125"></a>
+                                </div>
+                            </div>
+                        </div> -->
+                        <div class="bg bg-2">
+                            <div class="row">
+                                <div class="col-3">
+                                    <a href="https://th.shp.ee/p8ux2hw" target="_blank" data-aos="zoom-in" data-aos-delay="300"><img src="asset/image/shopee.png?v=<?php echo time(); ?>" alt="สั่งซื้อ NOMI NOMI บน Shopee" class="i-124"></a>
+                                </div>
+                                <div class="col-3">
+                                    <a href="https://s.lazada.co.th/s.ZZU9Ig" target="_blank" data-aos="zoom-in" data-aos-delay="350"><img src="asset/image/lazada.png?v=<?php echo time(); ?>" alt="สั่งซื้อ NOMI NOMI บน Lazada" class="i-125"></a>
+                                </div>
+                                <div class="col-3">
+                                    <a href="https://vt.tiktok.com/ZSHcaK19Judtb-LDNma/" target="_blank" data-aos="zoom-in" data-aos-delay="400"><img src="asset/image/tiktok.png?v=<?php echo time(); ?>" alt="สั่งซื้อ NOMI NOMI บน TikTok Shop" class="i-125"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="asset/image/i-121.png?v=<?php echo time(); ?>" alt="NOMI NOMI น้ำผลไม้ผสมผักสำหรับเด็ก" class="i-121">
+            </div>
+            <i class="i-126" data-aos="fade-up" data-aos-delay="300"></i>
+            <i class="i-127" ></i>
+        </section>
+    </main>
+
+    <script src="asset/js/main.js?v=<?php echo time(); ?>"></script>
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="asset/js/animations.js?v=<?php echo time(); ?>"></script>
+</body>
+</html>
