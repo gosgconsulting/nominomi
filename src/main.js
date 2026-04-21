@@ -60,12 +60,49 @@ function initMenu() {
   });
 }
 
+function initShopSidebar() {
+  const overlay = document.getElementById('shopSidebarOverlay');
+  const sidebar = document.getElementById('shopSidebar');
+  const closeBtn = document.getElementById('shopSidebarClose');
+  const triggers = [
+    document.getElementById('shopNowBtnDesktop'),
+    document.getElementById('shopNowBtnMobile'),
+  ];
+
+  if (!overlay || !sidebar) return;
+
+  function openSidebar() {
+    overlay.classList.add('active');
+    sidebar.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeSidebar() {
+    overlay.classList.remove('active');
+    sidebar.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+
+  triggers.forEach(function (btn) {
+    if (btn) btn.addEventListener('click', openSidebar);
+  });
+
+  if (closeBtn) closeBtn.addEventListener('click', closeSidebar);
+  overlay.addEventListener('click', closeSidebar);
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeSidebar();
+  });
+}
+
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', function () {
     initAOS();
     initMenu();
+    initShopSidebar();
   });
 } else {
   initAOS();
   initMenu();
+  initShopSidebar();
 }

@@ -81,7 +81,9 @@ html, body {
 }
 
 .header {
-  position: relative;
+  position: sticky;
+  top: 0;
+  z-index: 150;
   display: flex;
 }
 .header ul {
@@ -6003,3 +6005,306 @@ html, body {
     width: 200px;
   }
 }/*# sourceMappingURL=style.css.map */
+
+/* =============================
+   SHOP NOW BUTTON
+   ============================= */
+.shop-now-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 18px;
+  height: 38px;
+  border: none;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #ff6b00 0%, #ffb400 100%);
+  color: #fff;
+  font-family: "DB SaiKrok X", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  white-space: nowrap;
+  box-shadow: 0 3px 10px rgba(255, 107, 0, 0.45);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  z-index: 104;
+}
+.shop-now-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(255, 107, 0, 0.55);
+}
+.shop-now-btn:active {
+  transform: translateY(0);
+}
+
+/* Mobile variant — absolute positioned inside bottom-header */
+.shop-now-btn--mobile {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 32px;
+  font-size: 0.85rem;
+  padding: 0 12px;
+}
+.shop-now-btn--mobile:hover {
+  transform: translateY(calc(-50% - 2px));
+}
+.shop-now-btn--mobile:active {
+  transform: translateY(-50%);
+}
+
+/* =============================
+   ENGLISH TEXT MENU LINKS
+   (replace image-based Thai menu on /en/)
+   ============================= */
+/* Higher specificity (0-5-1) overrides original .top-header … li a (0-4-1) */
+.top-header .container .menu ul li a.menu-text-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 128px;
+  height: 46px;
+  background: linear-gradient(to bottom, #c85e12, #8f3e08);
+  border-radius: 6px;
+  color: #fff;
+  font-family: "DB SaiKrok X", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  padding: 0 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  transition: background 0.15s, transform 0.1s;
+  white-space: nowrap;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+}
+.top-header .container .menu ul li a.menu-text-link:hover {
+  background: linear-gradient(to bottom, #e06a18, #a84c0e);
+  transform: translateY(-1px);
+}
+
+a.menu-mb-text-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 40px;
+  background: linear-gradient(to bottom, #c85e12, #8f3e08);
+  border-radius: 6px;
+  color: #fff !important;
+  font-family: "DB SaiKrok X", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  padding: 0 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: background 0.15s;
+  white-space: nowrap;
+}
+a.menu-mb-text-link:hover {
+  background: linear-gradient(to bottom, #e06a18, #a84c0e);
+}
+
+/* Groups lang-switcher + shop button on English page */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto;
+}
+
+/* =============================
+   LANGUAGE SWITCHER
+   ============================= */
+.lang-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  margin-right: 8px;
+}
+.lang-switcher__btn {
+  font-family: "DB SaiKrok X", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.55;
+  letter-spacing: 0.06em;
+  transition: opacity 0.15s;
+  padding: 2px 0;
+}
+.lang-switcher__btn:hover,
+.lang-switcher__btn--active {
+  opacity: 1;
+}
+.lang-switcher__sep {
+  color: rgba(255, 255, 255, 0.35);
+  font-size: 0.75rem;
+  user-select: none;
+}
+
+/* Mobile variant */
+.lang-switcher--mobile {
+  position: absolute;
+  left: 58px;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-right: 0;
+}
+.lang-switcher--mobile .lang-switcher__btn {
+  font-size: 0.75rem;
+}
+
+/* Hide desktop button on mobile, hide mobile button on desktop */
+#shopNowBtnDesktop { display: none; }
+.lang-switcher--mobile { display: none; }
+@media (min-width: 992px) {
+  #shopNowBtnDesktop { display: inline-flex; }
+  #shopNowBtnMobile  { display: none; }
+}
+@media (max-width: 991px) {
+  .lang-switcher--mobile { display: flex; }
+}
+
+/* Hide social/shop icons from header — sidebar handles them */
+.top-header .container .social,
+.menu-mb .social { display: none; }
+
+/* =============================
+   SHOP SIDEBAR
+   ============================= */
+.shop-sidebar-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 200;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.shop-sidebar-overlay.active {
+  display: block;
+  opacity: 1;
+}
+
+.shop-sidebar {
+  position: fixed;
+  top: 0;
+  right: -340px;
+  width: 300px;
+  max-width: 90vw;
+  height: 100%;
+  overflow-y: auto;
+  background: #fff;
+  border-radius: 20px 0 0 20px;
+  z-index: 201;
+  padding: 28px 20px 32px;
+  box-shadow: -6px 0 30px rgba(0,0,0,0.18);
+  transition: right 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.shop-sidebar.active {
+  right: 0;
+}
+
+.shop-sidebar__close {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  width: 32px;
+  height: 32px;
+  border: none;
+  background: #f0f0f0;
+  border-radius: 50%;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #555;
+  transition: background 0.15s;
+}
+.shop-sidebar__close:hover {
+  background: #ffd9b3;
+  color: #ff6b00;
+}
+
+.shop-sidebar__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 22px;
+  padding-top: 8px;
+}
+.shop-sidebar__title {
+  font-family: "DB SaiKrok X", sans-serif;
+  font-size: 1.9rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #ff6b00, #ffb400);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1.1;
+}
+.shop-sidebar__subtitle {
+  font-family: "DB SaiKrok X", sans-serif;
+  font-size: 0.95rem;
+  color: #888;
+  margin-top: 2px;
+}
+
+.shop-sidebar__section {
+  margin-bottom: 18px;
+}
+.shop-sidebar__label {
+  font-family: "DB SaiKrok X", sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #bbb;
+  margin-bottom: 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.shop-sidebar__link {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 11px 14px;
+  border-radius: 14px;
+  text-decoration: none;
+  color: #333;
+  font-family: "DB SaiKrok X", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+  transition: background 0.15s, transform 0.15s;
+  background: #fafafa;
+}
+.shop-sidebar__link:hover {
+  transform: translateX(4px);
+}
+.shop-sidebar__link img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+/* Per-platform accent colours */
+.shop-sidebar__link--shopee:hover    { background: #fff0e6; }
+.shop-sidebar__link--lazada:hover    { background: #fff0f6; }
+.shop-sidebar__link--tiktokshop:hover{ background: #f0fafa; }
+.shop-sidebar__link--line:hover      { background: #edfbee; }
+.shop-sidebar__link--facebook:hover  { background: #eef3fb; }
+.shop-sidebar__link--instagram:hover { background: #fdf0f8; }
+.shop-sidebar__link--youtube:hover   { background: #fff0f0; }
+.shop-sidebar__link--tiktok:hover    { background: #f0fafa; }
