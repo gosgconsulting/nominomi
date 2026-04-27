@@ -6070,11 +6070,11 @@ html, body {
   border-radius: 6px;
   color: #fff;
   font-family: "DB SaiKrok X", sans-serif;
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: 700;
   text-decoration: none;
   text-align: center;
-  padding: 0 8px;
+  padding: 0 2px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.3);
   transition: background 0.15s, transform 0.1s;
   white-space: nowrap;
@@ -6123,12 +6123,12 @@ a.menu-mb-text-link:hover {
 .lang-switcher {
   display: inline-flex;
   align-items: center;
-  gap: 3px;
-  margin-right: 8px;
+  gap: 4px;
+  margin-right: 20px;
 }
 .lang-switcher__btn {
   font-family: "DB SaiKrok X", sans-serif;
-  font-size: 0.85rem;
+  font-size: 1.05rem;
   font-weight: 700;
   color: #fff;
   text-decoration: none;
@@ -6143,7 +6143,7 @@ a.menu-mb-text-link:hover {
 }
 .lang-switcher__sep {
   color: rgba(255, 255, 255, 0.35);
-  font-size: 0.75rem;
+  font-size: 0.95rem;
   user-select: none;
 }
 
