@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | NOMI NOMI - Children's Nutrition Articles &amp; Tips</title>
+    <meta name="description" content="Read the latest articles from NOMI NOMI on children's nutrition, healthy eating habits, DHA &amp; Omega benefits, and tips for parents.">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nominomikids.com/blog/">
+    <meta property="og:title" content="Blog | NOMI NOMI">
+    <meta property="og:description" content="Read the latest articles from NOMI NOMI on children's nutrition, healthy eating habits, DHA &amp; Omega benefits, and tips for parents.">
+    <meta property="og:image" content="https://nominomikids.com/asset/image/logo.png">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="NOMI NOMI">
+
+    <link rel="canonical" href="https://nominomikids.com/blog/">
+
+    <!-- Favicons -->
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+    /* ============================================================
+       BLOG PAGE LAYOUT
+       Reuses site-wide header/shop-sidebar styles from style.css.
+       Page-local styles are scoped under .blog-* to avoid clashes.
+       ============================================================ */
+
+    /* EN typography overrides for footer (mirrors /en/index.html) */
+    #section12 h2 { font-size: 24px !important; line-height: 1.25 !important; }
+    #section12 p  { font-size: 14px !important; line-height: 1.35 !important; }
+    @media (min-width: 992px) {
+        #section12 h2 { font-size: 38px !important; }
+        #section12 p  { font-size: 24px !important; }
+    }
+
+    main.blog-main {
+        background: #FFF6E5;
+        min-height: calc(100vh - 200px);
+        padding: 260px 0 0;
+    }
+
+    .blog-container {
+        max-width: 1100px;
+        margin: 0 auto 140px;
+        padding: 0 20px;
+    }
+
+    @media (max-width: 991px) {
+        main.blog-main { padding-top: 200px; }
+        .blog-container { margin-bottom: 100px; }
+    }
+    @media (max-width: 640px) {
+        main.blog-main { padding-top: 160px; }
+        .blog-container { margin-bottom: 70px; }
+    }
+
+    .blog-page-header {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .blog-page-header h1 {
+        font-family: "DB SaiKrok X", "Fredoka", sans-serif;
+        color: #f47427;
+        margin: 0 0 24px;
+        line-height: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 18px;
+        flex-wrap: wrap;
+    }
+    /* Override inline NOMI NOMI font-size only inside the title (not site-wide) */
+    .blog-page-title .nomi-text-inline {
+        font-size: 86px;
+        line-height: 0.9;
+    }
+    .blog-page-title .nomi-text-inline .nomi-line {
+        display: inline-block;
+    }
+    .blog-page-title .nomi-text-inline .nomi-bottom {
+        margin-left: 0.25em;
+        margin-top: 0;
+    }
+    .blog-page-title__suffix {
+        font-size: 64px;
+        color: #f47427;
+        font-weight: 700;
+        font-family: "Fredoka", sans-serif;
+        line-height: 1;
+    }
+
+    .blog-page-header p {
+        font-family: "DB SaiKrok X", "Fredoka", sans-serif;
+        font-size: 28px;
+        color: #555;
+        margin: 0;
+        line-height: 1.4;
+    }
+
+    .blog-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    .blog-card {
+        display: flex;
+        flex-direction: row;
+        background: #fff;
+        border-radius: 18px;
+        overflow: hidden;
+        box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .blog-card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    }
+
+    .blog-card__image {
+        flex: 0 0 220px;
+        max-width: 220px;
+        min-height: 180px;
+        overflow: hidden;
+        background: #f3f3f3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .blog-card__image img {
+        max-width: 80%;
+        max-height: 80%;
+        width: auto;
+        height: auto;
+        object-fit: contain;
+        display: block;
+        transition: transform 0.3s ease;
+    }
+
+    .blog-card:hover .blog-card__image img {
+        transform: scale(1.04);
+    }
+
+    .blog-card__body {
+        flex: 1 1 auto;
+        padding: 24px 28px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .blog-card__meta {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-family: "Fredoka", sans-serif;
+        font-size: 13px;
+        color: #888;
+        margin-bottom: 8px;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+    }
+
+    .blog-card__category {
+        background: #f47427;
+        color: #fff;
+        padding: 3px 10px;
+        border-radius: 4px;
+        font-weight: 600;
+        font-size: 11px;
+    }
+
+    .blog-card__title {
+        font-family: "DB SaiKrok X", "Fredoka", sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        color: #1f3b6e;
+        margin: 0 0 10px;
+        line-height: 1.3;
+    }
+
+    .blog-card__excerpt {
+        font-family: "Fredoka", sans-serif;
+        font-size: 15px;
+        color: #555;
+        line-height: 1.5;
+        margin: 0 0 14px;
+    }
+
+    .blog-card__readmore {
+        font-family: "Fredoka", sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        color: #f47427;
+        align-self: flex-start;
+    }
+
+    .blog-card__readmore::after {
+        content: " →";
+    }
+
+    /* Responsive — stack on mobile */
+    @media (max-width: 640px) {
+        .blog-page-title .nomi-text-inline { font-size: 60px; }
+        .blog-page-title__suffix { font-size: 44px; }
+        .blog-page-header p  { font-size: 19px; }
+
+        .blog-card {
+            flex-direction: column;
+        }
+        .blog-card__image,
+        .blog-card__body {
+            flex: 1 1 auto;
+            max-width: 100%;
+        }
+        .blog-card__image {
+            height: 200px;
+        }
+        .blog-card__image img {
+            max-width: 60%;
+            max-height: 90%;
+        }
+        .blog-card__body {
+            padding: 18px 20px 22px;
+        }
+        .blog-card__title { font-size: 19px; }
+    }
+    </style>
+</head>
+<body>
+    <!-- Header (mirrors /en/index.html) -->
+    <header class="header">
+        <button class="menu-btn">
+            <img src="/asset/image/hamburger.png" alt="Main menu">
+        </button>
+        <div class="top-header">
+            <div class="container">
+                <div class="menu">
+                    <ul>
+                        <li><a href="/en/" class="menu-text-link">Home</a></li>
+                        <li><a href="/en/#why" class="menu-text-link">Why NOMI NOMI?</a></li>
+                        <li><a href="/en/#goods" class="menu-text-link">Best Ingredients</a></li>
+                        <li><a href="/en/#different" class="menu-text-link">vs Milk?</a></li>
+                        <li><a href="/en/#faq" class="menu-text-link">FAQ</a></li>
+                        <li><a href="/blog/" class="menu-text-link">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="social">
+                    <ul>
+                        <li><a href="https://lin.ee/9mzQvDp" target="_blank"><img src="/asset/image/line.png" alt="LINE"></a></li>
+                        <li><a href="https://www.facebook.com/share/166HziGVaV/?mibextid=wwXIfr" target="_blank"><img src="/asset/image/facebook.png" alt="Facebook"></a></li>
+                        <li><a href="https://www.instagram.com/nominomikids?igsh=MWx4dWZvOXNydTZkbQ==" target="_blank"><img src="/asset/image/instagram.png" alt="Instagram"></a></li>
+                        <li><a href="https://youtube.com/@nominomikids?si=MVmeUisMsV-ocxuX" target="_blank"><img src="/asset/image/youtube.png" alt="YouTube"></a></li>
+                        <li><a href="https://www.tiktok.com/@nominomikids" target="_blank"><img src="/asset/image/tiktok-big.png" alt="TikTok"></a></li>
+                    </ul>
+                    <div class="ul-2">
+                        <a href="https://th.shp.ee/p8ux2hw" target="_blank"><img src="/asset/image/shopee.png" alt="Shopee"></a>
+                        <a href="https://s.lazada.co.th/s.ZZU9Ig" target="_blank"><img src="/asset/image/lazada.png" alt="Lazada"></a>
+                        <a href="https://vt.tiktok.com/ZSHcaK19Judtb-LDNma/" target="_blank"><img src="/asset/image/tiktok.png" alt="TikTok Shop"></a>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <div class="lang-switcher">
+                        <a href="/" class="lang-switcher__btn" aria-label="ภาษาไทย">TH</a>
+                        <span class="lang-switcher__sep">/</span>
+                        <a href="/en/" class="lang-switcher__btn lang-switcher__btn--active" aria-label="English">EN</a>
+                    </div>
+                    <button class="shop-now-btn" id="shopNowBtnDesktop" aria-label="Shop Now">Shop Now!</button>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-header">
+            <div class="logo">
+                <a href="/en/"><img src="/asset/image/logo.png" alt="NOMI NOMI"></a>
+            </div>
+            <div class="lang-switcher lang-switcher--mobile">
+              <a href="/" class="lang-switcher__btn" aria-label="ภาษาไทย">TH</a>
+              <span class="lang-switcher__sep">/</span>
+              <a href="/en/" class="lang-switcher__btn lang-switcher__btn--active" aria-label="English">EN</a>
+            </div>
+            <button class="shop-now-btn shop-now-btn--mobile" id="shopNowBtnMobile" aria-label="Shop Now">Shop Now!</button>
+        </div>
+        <aside class="menu-mb">
+            <div class="menu">
+                <ul>
+                    <li><a href="/en/" class="menu-mb-text-link">Home</a></li>
+                    <li><a href="/en/#why" class="menu-mb-text-link">Why NOMI NOMI?</a></li>
+                    <li><a href="/en/#goods" class="menu-mb-text-link">Best Ingredients</a></li>
+                    <li><a href="/en/#different" class="menu-mb-text-link">vs Milk?</a></li>
+                    <li><a href="/en/#faq" class="menu-mb-text-link">FAQ</a></li>
+                    <li><a href="/blog/" class="menu-mb-text-link">Blog</a></li>
+                </ul>
+            </div>
+            <div class="social">
+                <ul>
+                    <li><a href="https://lin.ee/9mzQvDp" target="_blank"><img src="/asset/image/line.png" alt="LINE"></a></li>
+                    <li><a href="https://www.facebook.com/share/166HziGVaV/?mibextid=wwXIfr" target="_blank"><img src="/asset/image/facebook.png" alt="Facebook"></a></li>
+                    <li><a href="https://www.instagram.com/nominomikids?igsh=MWx4dWZvOXNydTZkbQ==" target="_blank"><img src="/asset/image/instagram.png" alt="Instagram"></a></li>
+                    <li><a href="https://youtube.com/@nominomikids?si=MVmeUisMsV-ocxuX" target="_blank"><img src="/asset/image/youtube.png" alt="YouTube"></a></li>
+                    <li><a href="https://www.tiktok.com/@nominomikids" target="_blank"><img src="/asset/image/tiktok-big.png" alt="TikTok"></a></li>
+                </ul>
+                <div class="ul-2">
+                    <a href="https://th.shp.ee/p8ux2hw" target="_blank"><img src="/asset/image/shopee.png" alt="Shopee"></a>
+                    <a href="https://s.lazada.co.th/s.ZZU9Ig" target="_blank"><img src="/asset/image/lazada.png" alt="Lazada"></a>
+                    <a href="https://vt.tiktok.com/ZSHcaK19Judtb-LDNma/" target="_blank"><img src="/asset/image/tiktok.png" alt="TikTok Shop"></a>
+                </div>
+            </div>
+        </aside>
+    </header>
+
+    <main class="blog-main">
+        <div class="blog-container">
+            <div class="blog-page-header">
+                <h1 class="blog-page-title">
+                    <span class="blog-page-title__suffix">Blog</span>
+                </h1>
+                <p>Tips, stories &amp; nutrition insights for happy, healthy little ones.</p>
+            </div>
+
+            <div class="blog-grid">
+
+                <a href="/blog/dha-brain-development/" class="blog-card">
+                    <div class="blog-card__image">
+                        <img src="/asset/image/i-100.png" alt="Why DHA matters for kids">
+                    </div>
+                    <div class="blog-card__body">
+                        <div class="blog-card__meta">
+                            <span class="blog-card__category">Nutrition</span>
+                            <span>April 12, 2026</span>
+                        </div>
+                        <h2 class="blog-card__title">Why DHA matters for your child's brain development</h2>
+                        <p class="blog-card__excerpt">DHA (an Omega-3 fatty acid) plays a critical role in brain growth, memory and focus during the early years. Here's what every parent should know about getting enough of it.</p>
+                        <span class="blog-card__readmore">Read more</span>
+                    </div>
+                </a>
+
+                <a href="/blog/picky-eaters-vegetables/" class="blog-card">
+                    <div class="blog-card__image">
+                        <img src="/asset/image/i-101.png" alt="Picky eaters and vegetables">
+                    </div>
+                    <div class="blog-card__body">
+                        <div class="blog-card__meta">
+                            <span class="blog-card__category">Parenting</span>
+                            <span>April 5, 2026</span>
+                        </div>
+                        <h2 class="blog-card__title">5 friendly ways to get picky eaters to enjoy vegetables</h2>
+                        <p class="blog-card__excerpt">Mealtime battles? You're not alone. These five simple tricks can turn vegetables from a struggle into something your child actually looks forward to.</p>
+                        <span class="blog-card__readmore">Read more</span>
+                    </div>
+                </a>
+
+                <a href="/blog/hidden-sugars-kids-drinks/" class="blog-card">
+                    <div class="blog-card__image">
+                        <img src="/asset/image/i-103.png" alt="Hidden sugars in juices">
+                    </div>
+                    <div class="blog-card__body">
+                        <div class="blog-card__meta">
+                            <span class="blog-card__category">Health</span>
+                            <span>March 28, 2026</span>
+                        </div>
+                        <h2 class="blog-card__title">Hidden sugars in kids' drinks — and how to avoid them</h2>
+                        <p class="blog-card__excerpt">Many drinks marketed for children contain surprising amounts of added sugar and artificial sweeteners. Learn how to read the label and make better choices.</p>
+                        <span class="blog-card__readmore">Read more</span>
+                    </div>
+                </a>
+
+                <a href="/blog/lactose-intolerance-children/" class="blog-card">
+                    <div class="blog-card__image">
+                        <img src="/asset/image/i-104.png" alt="Lactose intolerance in children">
+                    </div>
+                    <div class="blog-card__body">
+                        <div class="blog-card__meta">
+                            <span class="blog-card__category">Health</span>
+                            <span>March 18, 2026</span>
+                        </div>
+                        <h2 class="blog-card__title">Is your child lactose intolerant? Signs to watch for</h2>
+                        <p class="blog-card__excerpt">Bloating, fussiness or tummy aches after milk could be a sign of lactose intolerance. Here are the symptoms to look out for and what to do next.</p>
+                        <span class="blog-card__readmore">Read more</span>
+                    </div>
+                </a>
+
+                <a href="/blog/reading-nutrition-labels/" class="blog-card">
+                    <div class="blog-card__image">
+                        <img src="/asset/image/i-105.png" alt="Reading nutrition labels">
+                    </div>
+                    <div class="blog-card__body">
+                        <div class="blog-card__meta">
+                            <span class="blog-card__category">Tips</span>
+                            <span>March 8, 2026</span>
+                        </div>
+                        <h2 class="blog-card__title">A quick parent's guide to reading nutrition labels</h2>
+                        <p class="blog-card__excerpt">Confused by all the numbers and percentages? This short guide breaks down what actually matters when you're shopping for your kids.</p>
+                        <span class="blog-card__readmore">Read more</span>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+        <!-- Footer (mirrors section12 from /en/index.html) -->
+        <section id="section12">
+            <div class="container" id="shop">
+                <div class="row">
+                    <div class="col-2" data-aos="fade-right">
+                        <img src="/asset/image/logo-black.png" alt="NOMI NOMI" class="logo-black">
+                        <img src="/asset/image/i-122.png" alt="NOMI NOMI certifications" class="i-122">
+                        <div class="row">
+                            <div class="col-5">
+                                <a href="https://lin.ee/9mzQvDp" target="_blank" data-aos="zoom-in" data-aos-delay="200"><img src="/asset/image/line-big.png" alt="LINE" class="line"></a>
+                            </div>
+                            <div class="col-5">
+                                <a href="https://www.facebook.com/share/166HziGVaV/?mibextid=wwXIfr" target="_blank" data-aos="zoom-in" data-aos-delay="250"><img src="/asset/image/facebook-big.png" alt="Facebook" class="facebook"></a>
+                            </div>
+                            <div class="col-5">
+                                <a href="https://www.instagram.com/nominomikids?igsh=MWx4dWZvOXNydTZkbQ==" target="_blank" data-aos="zoom-in" data-aos-delay="300"><img src="/asset/image/instagram-big.png" alt="Instagram" class="instagram"></a>
+                            </div>
+                            <div class="col-5">
+                                <a href="https://youtube.com/@nominomikids?si=MVmeUisMsV-ocxuX" target="_blank" data-aos="zoom-in" data-aos-delay="350"><img src="/asset/image/youtube-big.png" alt="YouTube" class="youtube"></a>
+                            </div>
+                            <div class="col-5">
+                                <a href="https://www.tiktok.com/@nominomikids" target="_blank" data-aos="zoom-in" data-aos-delay="350"><img src="/asset/image/tiktok-big.png" alt="TikTok" class="tiktok"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2" data-aos="fade-left" data-aos-delay="100">
+                        <h2>Where to Buy</h2>
+                        <p>You can find Nomi Nomi today at</p>
+                        <div class="bg bg-2">
+                            <div class="row">
+                                <div class="col-3">
+                                    <a href="https://th.shp.ee/p8ux2hw" target="_blank" data-aos="zoom-in" data-aos-delay="300"><img src="/asset/image/shopee.png" alt="Shopee" class="i-124"></a>
+                                </div>
+                                <div class="col-3">
+                                    <a href="https://s.lazada.co.th/s.ZZU9Ig" target="_blank" data-aos="zoom-in" data-aos-delay="350"><img src="/asset/image/lazada.png" alt="Lazada" class="i-125"></a>
+                                </div>
+                                <div class="col-3">
+                                    <a href="https://vt.tiktok.com/ZSHcaK19Judtb-LDNma/" target="_blank" data-aos="zoom-in" data-aos-delay="400"><img src="/asset/image/tiktok.png" alt="TikTok Shop" class="i-125"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="/asset/image/i-121.png" alt="NOMI NOMI" class="i-121">
+            </div>
+            <i class="i-126" data-aos="fade-up" data-aos-delay="300"></i>
+            <i class="i-127"></i>
+        </section>
+    </main>
+
+    <!-- Shop Now Sidebar (mirrors /en/index.html) -->
+    <div class="shop-sidebar-overlay" id="shopSidebarOverlay"></div>
+    <aside class="shop-sidebar" id="shopSidebar" aria-label="Shop Now">
+        <button class="shop-sidebar__close" id="shopSidebarClose" aria-label="Close">&#10005;</button>
+        <div class="shop-sidebar__header">
+            <span class="shop-sidebar__title">Shop Now!</span>
+            <span class="shop-sidebar__subtitle">Choose your preferred channel</span>
+        </div>
+
+        <div class="shop-sidebar__section">
+            <p class="shop-sidebar__label">Shop</p>
+            <a href="https://th.shp.ee/p8ux2hw" target="_blank" class="shop-sidebar__link shop-sidebar__link--shopee">
+                <img src="/asset/image/shopee.png" alt="Shopee">
+                <span>Shopee</span>
+            </a>
+            <a href="https://s.lazada.co.th/s.ZZU9Ig" target="_blank" class="shop-sidebar__link shop-sidebar__link--lazada">
+                <img src="/asset/image/lazada.png" alt="Lazada">
+                <span>Lazada</span>
+            </a>
+            <a href="https://vt.tiktok.com/ZSHcaK19Judtb-LDNma/" target="_blank" class="shop-sidebar__link shop-sidebar__link--tiktokshop">
+                <img src="/asset/image/tiktok.png" alt="TikTok Shop">
+                <span>TikTok Shop</span>
+            </a>
+        </div>
+
+        <div class="shop-sidebar__section">
+            <p class="shop-sidebar__label">Follow Us</p>
+            <a href="https://lin.ee/9mzQvDp" target="_blank" class="shop-sidebar__link shop-sidebar__link--line">
+                <img src="/asset/image/line.png" alt="LINE">
+                <span>LINE</span>
+            </a>
+            <a href="https://www.facebook.com/share/166HziGVaV/?mibextid=wwXIfr" target="_blank" class="shop-sidebar__link shop-sidebar__link--facebook">
+                <img src="/asset/image/facebook.png" alt="Facebook">
+                <span>Facebook</span>
+            </a>
+            <a href="https://www.instagram.com/nominomikids?igsh=MWx4dWZvOXNydTZkbQ==" target="_blank" class="shop-sidebar__link shop-sidebar__link--instagram">
+                <img src="/asset/image/instagram.png" alt="Instagram">
+                <span>Instagram</span>
+            </a>
+            <a href="https://youtube.com/@nominomikids?si=MVmeUisMsV-ocxuX" target="_blank" class="shop-sidebar__link shop-sidebar__link--youtube">
+                <img src="/asset/image/youtube.png" alt="YouTube">
+                <span>YouTube</span>
+            </a>
+            <a href="https://www.tiktok.com/@nominomikids" target="_blank" class="shop-sidebar__link shop-sidebar__link--tiktok">
+                <img src="/asset/image/tiktok-big.png" alt="TikTok">
+                <span>TikTok</span>
+            </a>
+        </div>
+    </aside>
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>
